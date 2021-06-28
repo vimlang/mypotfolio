@@ -1,0 +1,86 @@
+/*css documents*/
+body
+{
+    padding: 0px;
+    margin:0px;
+    font-size:17px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/10300006-flowers-background-with-butterfly.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    backdrop-filter: blur(1px);
+}
+.head
+{
+    width: 100%;
+    float: left;
+    min-height: 500px;
+    height: auto;
+    
+}
+.head-wrapper
+{
+    width: 1170px;
+    margin: 0px auto;
+}
+.menubar
+{
+    width: 700px;
+    float: left;
+}
+.menubar ul
+{
+    padding: 0px 0px;
+    margin: 0px 0px 0px 0px;
+    float: left !important;
+}
+.menubar ul li
+{
+    display: inline;
+    float: left !important;
+    position: relative;
+}
+.menubar ul li a
+{
+    padding:15px 0px;
+    margin:15px 0px 0px 20px;
+    float: left !important;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(12, 34, 226);
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menubar ul li ul
+{
+    display: none;
+    color: rgb(8, 8, 8);
+}
+.menubar ul li:hover >ul
+{
+    display: block;
+    position: absolute;
+    top:75px;
+    background-color: rgb(255, 255, 255);
+}
+.menubar img
+{
+    padding: 300px 0px;
+    margin: 100px 0px 500px 0px;
+    float: left;
+    height: 500px;
+    width: 500px;
+}
+
+.menubar h1
+{
+    padding: 0px -90px;
+    margin: 300px -250px;
+    color: rgb(8, 83, 245);
+    font-style: unset;
+    font-size: 60px;
+    text-align: right;
+    text-shadow: yellow;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>From</title>
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+            font-size: 17px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(images/contant826350.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            backdrop-filter: blur(2px);
+        }
+
+        .head {
+            width: 100%;
+            float: left;
+            min-height: 50px;
+            height: auto;
+
+        }
+
+        .head-wrapper {
+            width: 1170px;
+            margin: 0px auto;
+        }
+
+        .menubar {
+            width: 700px;
+            float: left;
+        }
+
+        .menubar ul {
+            padding: 0px 0px;
+            margin: 0px 0px 0px 0px;
+            float: left !important;
+        }
+
+        .menubar ul li {
+            display: inline;
+            float: left !important;
+            position: relative;
+        }
+
+        .menubar ul li a {
+            padding: 15px 0px;
+            margin: 15px 0px 0px 20px;
+            float: left !important;
+            font-size: 30px;
+            font-weight: bold;
+            color: rgb(46, 0, 253);
+            text-decoration: none;
+        }
+
+        .menubar ul li ul {
+            display: none;
+            color: rgb(8, 8, 8);
+        }
+
+        .menubar ul li:hover>ul {
+            display: block;
+            position: absolute;
+            top: 75px;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .box {
+            float: left;
+            min-height: 93px;
+            height: auto;
+            width: 100%;
+            padding: 0px 0px 0px 0px;
+            margin: 0px 0px 0px 0px;
+        }
+
+        .box h1 {
+            padding: 0px 0px;
+            margin: 20px 0px 20px 40px;
+            text-align: center;
+            color: blueviolet;
+            font-size: 40px;
+        }
+
+        label {
+            width: 100px;
+            padding: 0px 20px;
+            margin: 5px 5px 0px 0px;
+            /* height: 20px; */
+            text-align: initial;
+        }
+
+        input {
+            width: 500px;
+            padding: 5px 10px;
+            margin: 10px 0px 0px 0px;
+        }
+
+        .message label {
+            padding: 50px 10px;
+            margin: 0px 0px;
+            text-align: right;
+        }
+
+        .message {
+            padding: 0px 0px;
+            margin: 0px 240px 0px 0px;
+            text-align: center;
+        }
+
+        .Login-button {
+            padding: 0px 0px;
+            margin: 0px 600px;
+        }
+
+        .Login-button input {
+            padding: 10px 0px;
+            margin: 0x 0px;
+            background-color: rgb(37, 108, 240);
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            width: 25%;
+            float: right;
+        }
+
+        .gender {
+            text-align: right;
+        }
+        .input1{
+            margin-left: 30px;
+        }
+        select{
+            position: relative;
+            top: -20px;
+            left:-130px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <div class="head-wrapper">
+            <div class="menubar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="biography.html">About</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="box">
+        <h1>Fill Your Details</h1>
+        <form method="POST">
+            <!-- <fieldset>
+            <legend>my page</legend> -->
+            <div class="input1">
+                <label>First Name</label>
+                <input type="text" value="" name="First Name" placeholder="Enter your first name"><br><br>
+            </div>
+            <div class="input1">
+                <label>Last Name</label>
+                <input type="text" value="" name="Last Name" placeholder="Enter your last name"><br><br>
+            </div>
+                <label>Father's Name</label>
+                <input type="text" value="" name="Father's Name" placeholder="Enter your father's name"><br><br>
+            <label>Mother's Name</label>
+            <input type="text" value="" name="Mother's Name" placeholder="Enter your mother's name"><br><br>
+            <label>Mobile Number</label>
+            <input type="text" value="" name="Mobile Name" placeholder="Enter your moblie number"
+                maxlength="10"><br><br>
+            <div class="message">
+                <label>Message:-</label>
+                <textarea cols="25" rows="10"></textarea><br><br>
+            </div>
+            <select>
+                <optgroup label="Gender">
+                    <right>Gender</right>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>others</option>
+                </optgroup>
+            </select>
+            <div class="Login-button">
+                <input type="submit" value="Submit" /> <br /><br />
+            </div>
+            <!-- </fieldset> -->
+        </form>
+    </div>
+</body>
+
+</html>
